@@ -1,5 +1,5 @@
 import React from 'react'
-import Background  from '../componentes/login/Background'
+import Background  from '../components/login/Background'
 
 export default () => {
     return (
