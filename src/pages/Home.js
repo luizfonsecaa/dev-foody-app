@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Teste from '../components/home/teste'
 
 export default () => {
+    const [num, setNum] = useState(0)
+
+    const trocaNumero = () => {
+        
+    }
+
     return (
-        <React.Fragment>
-            <h1>Home</h1>
-        </React.Fragment>
+        <>
+            <h1>Home {num}</h1> 
+            <Teste  numero={num} addNum={trocaNumero} />
+        </>
     )
 }
