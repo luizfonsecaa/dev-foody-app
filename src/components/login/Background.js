@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import img from '../../img/background.jpeg'
+import img from '../../img/ops.jpeg'
 
 const BackgroundLogin = styled.div `
     background-image:url("${img}");
     background-size: cover; 
-    height:100vh; 
+    min-height:100vh; 
+    padding-top: 5vh;
 `
 
 
