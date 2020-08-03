@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Tabs, Tab, Container, Row, Col} from 'react-bootstrap'
 
-import Background  from '../componentes/login/Background'
-import BoxFormLogin from '../componentes/login/BoxFormLogin'
-import Logo from '../componentes/login/LogoLogin'
-import FormLogin from '../componentes/login/FormLogin'
-import FormRegister from '../componentes/login/FormRegister'
+import Background  from '../components/login/Background'
+import BoxFormLogin from '../components/login/BoxFormLogin'
+import Logo from '../components/login/LogoLogin'
+import FormLogin from '../components/login/FormLogin'
+import FormRegister from '../components/login/FormRegister'
 
 
 export default () => {
